@@ -16,7 +16,6 @@ CREATE TABLE IF NOT EXISTS public."shot_records" (
 "hit_outcome" TEXT,
 "target_zone_hit" TEXT
 );
-TABLESPACE pg_default;
 
 ALTER TABLE public."shot_records" ADD CONSTRAINT "PK_shot_records" PRIMARY KEY (id);
 
