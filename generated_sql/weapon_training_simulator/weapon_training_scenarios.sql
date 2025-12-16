@@ -14,7 +14,6 @@ CREATE TABLE IF NOT EXISTS public."weapon_training_scenarios" (
 "environmental_factors" TEXT,
 "classification" TEXT
 );
-TABLESPACE pg_default;
 
 ALTER TABLE public."weapon_training_scenarios" ADD CONSTRAINT "PK_weapon_training_scenarios" PRIMARY KEY (id);
 
