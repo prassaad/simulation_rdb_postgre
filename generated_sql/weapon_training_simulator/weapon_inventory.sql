@@ -15,7 +15,6 @@ CREATE TABLE IF NOT EXISTS public."weapon_inventory" (
 "status" TEXT,
 "simulation_mode" TEXT
 );
-TABLESPACE pg_default;
 
 ALTER TABLE public."weapon_inventory" ADD CONSTRAINT "PK_weapon_inventory" PRIMARY KEY (id);
 
