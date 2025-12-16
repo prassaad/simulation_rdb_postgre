@@ -19,7 +19,6 @@ CREATE TABLE IF NOT EXISTS public."training_sessions" (
 "qualification_achieved" TEXT,
 "aar_summary" TEXT
 );
-TABLESPACE pg_default;
 
 ALTER TABLE public."training_sessions" ADD CONSTRAINT "PK_training_sessions" PRIMARY KEY (id);
 
