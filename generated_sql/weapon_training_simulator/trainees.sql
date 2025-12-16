@@ -11,7 +11,6 @@ CREATE TABLE IF NOT EXISTS public."trainees" (
 "unit" TEXT,
 "home_base_location" GEOMETRY(GEOMETRY, 4326)
 );
-TABLESPACE pg_default;
 
 ALTER TABLE public."trainees" ADD CONSTRAINT "PK_trainees" PRIMARY KEY (id);
 
